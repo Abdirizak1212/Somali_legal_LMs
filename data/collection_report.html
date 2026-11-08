@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Somalia Legal Document Collection</title>
+  <style>
+    :root { color-scheme: light; --ink: #172b3a; --muted: #647789;
+      --paper: #f3f7f6; --accent: #087f70; --line: #e2e9e8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink);
+      font: 15px/1.5 "Segoe UI", Arial, sans-serif; }
+    header { padding: 48px max(24px, calc((100% - 1120px) / 2));
+      color: white; background: linear-gradient(120deg, #123b4a, #087f70); }
+    header p { margin: 8px 0 0; color: #d3efea; }
+    h1 { margin: 0; font-size: clamp(1.8rem, 4vw, 2.7rem); }
+    main { width: min(1120px, calc(100% - 40px)); margin: 28px auto 60px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 14px; margin-bottom: 22px; }
+    .card, .panel { border: 1px solid var(--line); border-radius: 14px;
+      background: white; box-shadow: 0 5px 18px #1833430b; }
+    .card { padding: 19px 21px; }
+    .card span { display: block; color: var(--muted); font-size: .82rem; }
+    .card strong { display: block; margin-top: 3px; font-size: 1.65rem; }
+    .panel { overflow: hidden; }
+    .panel-heading { padding: 19px 22px; border-bottom: 1px solid var(--line); }
+    h2 { margin: 0; font-size: 1.1rem; }
+    .panel-heading p { margin: 4px 0 0; color: var(--muted); font-size: .88rem; }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th, td { padding: 15px 18px; border-bottom: 1px solid var(--line);
+      vertical-align: top; }
+    th { color: var(--muted); background: #fbfcfc; font-size: .76rem;
+      letter-spacing: .06em; text-transform: uppercase; }
+    tr:last-child td { border-bottom: 0; }
+    td small { display: block; margin-top: 4px; color: var(--muted);
+      overflow-wrap: anywhere; }
+    a { color: #087f70; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .status { display: inline-block; padding: 3px 9px; border-radius: 999px;
+      font-size: .78rem; font-weight: 700; }
+    .success { color: #146c43; background: #e5f5ec; }
+    .failed { color: #9c3d37; background: #fff0ed; }
+    .muted { color: var(--muted); }
+    footer { padding: 16px 2px; color: var(--muted); font-size: .82rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Somalia Legal Document Collection</h1>
+    <p>Download status and source links for the selected legal documents.</p>
+  </header>
+  <main>
+    <section class="cards" aria-label="Collection summary">
+      <div class="card"><span>Documents listed</span><strong>5</strong></div>
+      <div class="card"><span>PDFs downloaded</span><strong>1 / 5</strong></div>
+      <div class="card"><span>Total downloaded</span><strong>393,133 bytes</strong></div>
+    </section>
+    <section class="panel">
+      <div class="panel-heading">
+        <h2>Documents</h2>
+        <p>Failed downloads include the reported error for troubleshooting.</p>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Document</th><th>Source</th><th>Local PDF</th>
+            <th>Result</th></tr></thead>
+          <tbody><tr><td><strong>Federal Republic of Somalia - Provisional Constitution (2012)</strong><small>Constitute Project</small></td><td><a href="https://www.constituteproject.org/constitution/Somalia_2012.pdf" target="_blank" rel="noopener noreferrer">View source</a></td><td><a class="file-link" href="raw/Somalia_2012.pdf">Somalia_2012.pdf</a></td><td><span class="status success">Downloaded</span><small>393,133 bytes</small></td></tr><tr><td><strong>Federal Constitution of Somalia (Final)</strong><small>United Nations Assistance Mission in Somalia</small></td><td><a href="https://unsom.unmissions.org/sites/default/files/old_dnn/docs/FEDERAL_CONSTITUTION_OF_SOMALIA_FINAL.pdf" target="_blank" rel="noopener noreferrer">View source</a></td><td><span class="muted">Not saved</span></td><td><span class="status failed">Failed</span><small>404 Client Error: Not Found for url: https://unsom.unmissions.org/sites/default/files/old_dnn/docs/FEDERAL_CONSTITUTION_OF_SOMALIA_FINAL.pdf</small></td></tr><tr><td><strong>Somalia legal document (Refworld 5b7988f54)</strong><small>UNHCR Refworld</small></td><td><a href="https://www.refworld.org/pdfid/5b7988f54.pdf" target="_blank" rel="noopener noreferrer">View source</a></td><td><span class="muted">Not saved</span></td><td><span class="status failed">Failed</span><small>403 Client Error: Forbidden for url: https://www.refworld.org/pdfid/5b7988f54.pdf</small></td></tr><tr><td><strong>Somalia legal document (Refworld 4b4f5e612)</strong><small>UNHCR Refworld</small></td><td><a href="https://www.refworld.org/pdfid/4b4f5e612.pdf" target="_blank" rel="noopener noreferrer">View source</a></td><td><span class="muted">Not saved</span></td><td><span class="status failed">Failed</span><small>403 Client Error: Forbidden for url: https://www.refworld.org/pdfid/4b4f5e612.pdf</small></td></tr><tr><td><strong>Somalia legal document (Refworld 4b4f5e3c2)</strong><small>UNHCR Refworld</small></td><td><a href="https://www.refworld.org/pdfid/4b4f5e3c2.pdf" target="_blank" rel="noopener noreferrer">View source</a></td><td><span class="muted">Not saved</span></td><td><span class="status failed">Failed</span><small>403 Client Error: Forbidden for url: https://www.refworld.org/pdfid/4b4f5e3c2.pdf</small></td></tr></tbody>
+        </table>
+      </div>
+    </section>
+    <footer>Report generated 2026-11-08 11:51 E. Africa Standard Time · Files are stored in data/raw/.</footer>
+  </main>
+</body>
+</html>

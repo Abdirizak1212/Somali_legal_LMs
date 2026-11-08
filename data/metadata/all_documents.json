@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Federal Republic of Somalia - Provisional Constitution (2012)",
+    "url": "https://www.constituteproject.org/constitution/Somalia_2012.pdf",
+    "source": "Constitute Project",
+    "filename": "Somalia_2012.pdf",
+    "local_path": "data\\raw\\Somalia_2012.pdf",
+    "status": "success",
+    "bytes": 393133,
+    "collected_at": "2026-11-08T11:51:45.667011+03:00"
+  },
+  {
+    "title": "Federal Constitution of Somalia (Final)",
+    "url": "https://unsom.unmissions.org/sites/default/files/old_dnn/docs/FEDERAL_CONSTITUTION_OF_SOMALIA_FINAL.pdf",
+    "source": "United Nations Assistance Mission in Somalia",
+    "filename": "FEDERAL_CONSTITUTION_OF_SOMALIA_FINAL.pdf",
+    "local_path": null,
+    "status": "failed",
+    "bytes": 0,
+    "error": "404 Client Error: Not Found for url: https://unsom.unmissions.org/sites/default/files/old_dnn/docs/FEDERAL_CONSTITUTION_OF_SOMALIA_FINAL.pdf",
+    "collected_at": "2026-11-08T11:51:46.635056+03:00"
+  },
+  {
+    "title": "Somalia legal document (Refworld 5b7988f54)",
+    "url": "https://www.refworld.org/pdfid/5b7988f54.pdf",
+    "source": "UNHCR Refworld",
+    "filename": "5b7988f54.pdf",
+    "local_path": null,
+    "status": "failed",
+    "bytes": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.refworld.org/pdfid/5b7988f54.pdf",
+    "collected_at": "2026-11-08T11:51:47.151841+03:00"
+  },
+  {
+    "title": "Somalia legal document (Refworld 4b4f5e612)",
+    "url": "https://www.refworld.org/pdfid/4b4f5e612.pdf",
+    "source": "UNHCR Refworld",
+    "filename": "4b4f5e612.pdf",
+    "local_path": null,
+    "status": "failed",
+    "bytes": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.refworld.org/pdfid/4b4f5e612.pdf",
+    "collected_at": "2026-11-08T11:51:47.531103+03:00"
+  },
+  {
+    "title": "Somalia legal document (Refworld 4b4f5e3c2)",
+    "url": "https://www.refworld.org/pdfid/4b4f5e3c2.pdf",
+    "source": "UNHCR Refworld",
+    "filename": "4b4f5e3c2.pdf",
+    "local_path": null,
+    "status": "failed",
+    "bytes": 0,
+    "error": "403 Client Error: Forbidden for url: https://www.refworld.org/pdfid/4b4f5e3c2.pdf",
+    "collected_at": "2026-11-08T11:51:47.888608+03:00"
+  }
+]
