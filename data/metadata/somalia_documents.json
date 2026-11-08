@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Federal Republic of Somalia - Provisional Constitution 2012",
+    "url": "https://www.constituteproject.org/constitution/Somalia_2012.pdf",
+    "type": "constitution",
+    "year": 2012,
+    "source": "Constitute Project",
+    "local_path": "data/raw\\Somalia_2012.pdf",
+    "collected_at": "2026-11-08T11:34:29.639398",
+    "status": "success"
+  },
+  {
+    "title": "Somalia - Transitional Federal Charter 2004",
+    "url": "https://www.refworld.org/pdfid/4ff53d262.pdf",
+    "type": "charter",
+    "year": 2004,
+    "source": "UNHCR Refworld",
+    "local_path": null,
+    "collected_at": "2026-11-08T11:34:30.567249",
+    "status": "failed"
+  }
+]
